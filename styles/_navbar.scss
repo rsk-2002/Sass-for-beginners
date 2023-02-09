@@ -1,0 +1,13 @@
+nav {
+    background-color: $navColor;
+    height: 100px;
+
+    h1 {
+        font-size: 3rem;
+        color: $whiteColor;
+    }
+    .logo {
+        @include textCenter();
+        line-height: 100px;
+    }
+}

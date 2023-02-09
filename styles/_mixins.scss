@@ -1,0 +1,9 @@
+@mixin textCenter {
+    text-align: center;
+}
+
+@mixin gridCenter($height) {
+    height: $height;
+    display: grid;
+    place-items: center;
+}

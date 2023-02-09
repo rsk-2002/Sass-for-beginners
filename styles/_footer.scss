@@ -1,0 +1,11 @@
+footer {
+    @include textCenter();
+    @extend nav;
+    @include gridCenter(100px);
+    color: $whiteColor;
+
+    a {
+        color: $whiteColor;
+    }
+    font-size: 1.2rem;
+}
